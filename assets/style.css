@@ -136,3 +136,74 @@ p {
 .cta:hover {
   background: var(--accent-hover);
 }
+
+.eyebrow {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.secondary-link {
+  margin-top: 20px;
+  color: var(--muted);
+}
+
+.secondary-link a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.secondary-link a:hover {
+  text-decoration: underline;
+}
+
+.app-link-card {
+  margin-top: 36px;
+  padding: 20px;
+  border: 1px solid #e5e5ea;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.app-link-card h2,
+.app-link-card p {
+  margin-top: 0;
+}
+
+.app-link-card .cta {
+  margin-top: 16px;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.app-grid .app-link-card {
+  margin-top: 0;
+  height: 100%;
+}
+
+.hub-note {
+  margin-top: 40px;
+  padding-top: 8px;
+}
+
+.hub .container {
+  padding-top: 20px;
+}
+
+.omikuji-card {
+  border-color: #dfdafb;
+}
+
+body.omikuji {
+  --accent: #6b5cff;
+  --accent-hover: #5748de;
+}
