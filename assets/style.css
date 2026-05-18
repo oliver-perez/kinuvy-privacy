@@ -207,3 +207,12 @@ body.omikuji {
   --accent: #6b5cff;
   --accent-hover: #5748de;
 }
+
+.ameno-card {
+  border-color: #ecdbb2;
+}
+
+body.ameno {
+  --accent: #c8941a;
+  --accent-hover: #a87a13;
+}
