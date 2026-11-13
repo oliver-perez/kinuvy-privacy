@@ -199,14 +199,7 @@ p {
   padding-top: 20px;
 }
 
-.omikuji-card {
-  border-color: #dfdafb;
-}
 
-body.omikuji {
-  --accent: #6b5cff;
-  --accent-hover: #5748de;
-}
 
 .ameno-card {
   border-color: #ecdbb2;
